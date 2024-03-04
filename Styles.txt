@@ -1,0 +1,89 @@
+/* General Styles */
+.body-class {
+    background-color: #f0f0f0; /* Subtle background */
+    font-family: Arial, sans-serif;
+    color: #333; /* Primary text color for contrast */
+}
+
+.header-class {
+    background-color: #005a87; /* Contrasting header background */
+    color: #ffffff; /* White text for visibility */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nav-class {
+    background-color: #007baa; /* Nav background */
+    padding: 10px 0;
+}
+
+.nav-class a {
+    color: #ffffff; /* Nav link color */
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: normal;
+}
+
+.nav-class a:hover,
+.nav-class a:focus {
+    font-weight: bold; /* Make active or hovered links bold */
+}
+
+.title-class, .section-title-class {
+    color: #d14f69; /* Heading color */
+}
+
+.text-class {
+    color: #555; /* Text color */
+}
+
+.image-class {
+    border: 5px solid #d14f69; /* Complementary border for images */
+    max-width: 100%;
+    height: auto;
+}
+
+.form-class, .button-class {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-class {
+    width: calc(100% - 22px); /* Adjust width to fit padding */
+}
+
+.button-class {
+    background-color: #005a87; /* Button color matching header */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove default border */
+    cursor: pointer;
+}
+
+.button-class:hover {
+    background-color: #007baa; /* Darken button on hover */
+}
+
+.footer-class {
+    background-color: #333; /* Dark footer background */
+    color: #ffffff; /* White footer text */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Accessibility & Responsive Design */
+img {
+    alt: ""; /* Ensure all images have alt attributes in HTML for accessibility */
+}
+
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .nav-class a {
+        padding: 0 10px;
+    }
+
+    .title-class, .section-title-class {
+        font-size: 1.5em; /* Reduce size on small screens */
+    }
+}
